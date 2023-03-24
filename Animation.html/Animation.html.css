@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <meta charset="UTF-8">
+            <meta type="viewport" name="width=device-width, initial scale=1.0">
+      <link rel="stylesheet" href="style.css">
+   
+   <style>
+     @keyframes box{
+     
+             0%{   
+                  top:0px;
+                  left:200px;
+                  background:red;
+                  }
+                 
+              40%{     
+                     top:100px;i
+                     left:260px;
+                     background:green;
+                     }
+               100%{
+                      top:200px;
+                      left:50px;
+                      background:black;
+               
+               
+                       }
+     
+     
+                       }
+                       
+                       
+                       
+                       
+                       
+        div{
+              animation-duration:3s;
+              animation-name:box;
+              height:50px;
+              width:50px;
+              background:teal;
+              position:relative;
+              display:none;
+               }
+   
+   
+   
+   
+   </style>
+   <script>
+   function  find(){
+   
+          var top=document.getElementById("tap")
+          var tjam=document.getElementById("jam")
+   
+      if(top.style.display==="block"){
+      
+          top.style.display="none";
+          tjam.innerHTML="click";
+                         }
+                         
+      else{
+            top.style.display="block";
+            tjam.innerHTML="click";
+                          }
+   
+   
+   
+                      }
+   
+   </script>
+   
+   </head>
+   <body>
+   <button id="jam" onclick="find()">click</button>
+   <div id="tap"></div>
+   
+   
+   </body>
+   </html>
+   
+   
+   
+   
