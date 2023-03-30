@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta type="viewport" name="width=device-width,initial scale=1.0">y
+   <title>try </title>
+   <style type="text/css">
+   body{
+         background:#775526;
+   
+   
+            }
+    .small{
+             position:relative;;
+             border:2px solid white;
+              height:200px;
+              border-radius:10px;
+              
+             }
+   
+      .small p{
+                text-align:center;
+           
+                 }
+   
+      .scr{ margin-left:100px;
+          
+            
+            
+           }
+           
+           .small h1{
+           
+                text-align:center;
+           
+           }
+   
+   .head{
+   
+          border:2px solid white;
+          height:100vh;
+   
+          }
+  .head h1{
+            text-align:center
+            }
+   
+   </style>
+   <script>
+   function read(){
+          document.write("<br><br>France made history today by defeating crotia during the worldcup finals in quatter")
+   
+   
+                 }
+                 
+                 
+         function dope(){
+                    document.write("France made history today by defeating crotia during the worldcup finals in quatter")
+                 
+                       }
+                 
+   
+   </script>
+   
+   
+   
+   </head>
+   <body>
+   <div class="small">
+   <h1>GISTHUB</h1>
+   <p><span>Login</span>in for all kinds of news and Gossip
+   Newscathegories:Politics/Entertainment/lifestyle/</p>
+   <p>Culture/Jobs/Business/Torism</p>
+    
+   <div class="src">
+   <input type="search" name="search" placeholder="search">
+   <button id="btn">Login</button>
+    
+    </div>
+   
+   </div><br>
+   
+  <div class="head">
+  <h1> Headlines</h1><hr>
+  <p  id="par1" onclick="read()">~France  beats crotia to retain the world cup trophy in quattar~</p>
+   <p  id="par2" onclick="dope()">~Yorubas are the most pulished poeple on earth says Reno~</p>  
+   </div>
+   
+   
+   </body>
+   </html>
