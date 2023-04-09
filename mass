@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <script>
+           var myobj={cat:"box",ban:"van",bax:"nav",kan:"pan"};
+           var myJSON=JSON.stringify(myobj);
+           window.location="https://dealfred.github.io/the-newest/nass"+myJSON
+
+
+
+         </script>
+
+</head>
+<body>
+
+<p id="box"></p>
+
+
+
+</body>
+</html>
+
+
